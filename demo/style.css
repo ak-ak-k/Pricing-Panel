@@ -52,7 +52,7 @@ li {
 .brand {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 40px;
   line-height: 58px;
   text-align: center;
@@ -62,8 +62,8 @@ li {
 .get_started {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 500;
-  font-size: 25px;
+  font-weight: 700;
+  font-size: 30px;
   line-height: 48px;
   text-align: center;
   color: #ffffff;
@@ -80,11 +80,11 @@ li {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 29px;
   text-align: center;
   color: #ffffff;
-  padding: 15px;
+  padding: 16px 24px;
   text-decoration: none;
 }
 
@@ -98,19 +98,19 @@ li {
 .card {
   width: 279px;
   background: #ffffff;
-  /* box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2); */
-  box-shadow: -15px 0px 30px rgba(129, 17, 232, 0.1), 15px 15px 30px rgba(131, 99, 160, 0.1);
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+
   border-radius: 8px;
   padding-bottom: 20px;
   cursor: pointer;
 }
 
-/* .card:hover {
+.card:hover {
   transition: all 0.2s ease-out;
   box-shadow: -15px 0px 30px rgba(129, 17, 232, 0.1), 15px 15px 30px rgba(131, 99, 160, 0.1);
   top: -4px;
   background-color: white;
-} */
+}
 
 .cards_section {
   display: flex;
@@ -162,7 +162,7 @@ li {
 .choose {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 36px;
   line-height: 32px;
   text-align: center;
@@ -173,7 +173,7 @@ li {
 .correct {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 20px;
   line-height: 32px;
   text-align: center;
@@ -197,7 +197,7 @@ li {
 .custom_pricing {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 24px;
   line-height: 29px;
   text-align: center;
@@ -209,7 +209,7 @@ li {
 .plns {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 20px;
   line-height: 32px;
   text-align: center;
@@ -235,13 +235,13 @@ li {
   line-height: 29px;
   text-align: center;
   color: #ffffff;
-  padding: 15px;
+  padding: 16px 24px;
   text-decoration: none;
   border: none;
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 2px;
 }
 
 .contact_sales button:hover {
@@ -257,7 +257,7 @@ li {
 .feature {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 36px;
   line-height: 29px;
 
@@ -317,7 +317,7 @@ tr {
 .table_text {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 20px;
   line-height: 26px;
   text-align: left;
@@ -340,7 +340,7 @@ tr {
 .few_words p {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 30px;
   line-height: 39px;
 
@@ -361,9 +361,11 @@ tr {
 
 .price_card {
   width: 279px;
+  height: 408px;
+
   background: #ffffff;
   border-radius: 16px;
-  padding: 15px;
+  padding: 25px 16px;
   cursor: pointer;
 }
 
@@ -381,7 +383,7 @@ tr {
 .secondary_text p {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
@@ -396,7 +398,7 @@ tr {
 .txts p {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
