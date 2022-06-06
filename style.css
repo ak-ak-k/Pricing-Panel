@@ -443,15 +443,10 @@ tr {
   justify-content: space-around;
 }
 
-/* .active,
-.accordion:hover {
-  background-color: #ccc;
-} */
-
 .panels {
-  padding: 0 223px;
+  padding: 0 18px;
+  display: none;
   background-color: white;
-  max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
@@ -470,6 +465,8 @@ tr {
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
+  width: 69%;
+  margin: auto;
 }
 
 /* .change {
@@ -599,5 +596,7 @@ tr {
   }
   .faqs_desc {
     font-size: 15px;
+    width: 95%;
+    margin: auto;
   }
 }
