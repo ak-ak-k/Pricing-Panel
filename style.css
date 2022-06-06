@@ -600,4 +600,7 @@ tr {
     width: 95%;
     margin: auto;
   }
+  .line {
+    width: 90%;
+  }
 }
