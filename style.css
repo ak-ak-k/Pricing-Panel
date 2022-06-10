@@ -179,6 +179,8 @@ li {
   text-align: center;
   color: #000000;
   padding: 20px;
+  width: 60%;
+  margin: auto;
 }
 
 /*  */
@@ -420,7 +422,6 @@ tr {
 /* -------------- */
 
 .line {
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
   width: 70%;
   margin: auto;
 
@@ -540,6 +541,7 @@ tr {
   }
   .correct {
     font-size: 15px;
+    width: 100%;
   }
   .mt-2 {
     margin: 29px;
@@ -641,6 +643,13 @@ tr {
     width: 90%;
   }
   .left_div {
-    width: 350px;
+    width: 310px;
+    height: auto;
+  }
+  .fff {
+    margin: 15px;
+  }
+  .mt {
+    margin-top: -15px;
   }
 }
